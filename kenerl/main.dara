@@ -1,0 +1,111 @@
+import Util;
+
+type @server_host = string
+type @protocol = string
+
+model Config {
+  host: string, 
+  protocol: string
+}
+
+/**
+ * init the client
+ * @param config Config of the config
+ */
+init(config: Config) {
+ @server_host = config.host;
+ @protocol = config.protocol;
+}
+
+async function get(api:string,headers:$Model,query:$Model): map[string]any {
+  return _get(api,headers, query);
+}
+
+async function post(api:string,headers:$Model,query:$Model,body:$Model): map[string]any {
+  return _post(api,headers, query, body);
+}
+
+/**
+ * the api use to deal with get request
+ * @param pathname pathname of the get api
+ * @param query the model of query params 
+ * @return result result of the server
+ */
+api _get(pathname: string, headers: $Model, query: $Model): object {
+  __request.method = 'GET';
+  __request.protocol = @protocol;
+  __request.pathname = pathname;
+  __request.headers = {
+    host = @server_host,
+  };
+  var headersMap = Util.stringifyMapValue(query);
+  if(!Util.empty(headersMap.accountId)){
+      __request.headers.accountId = headersMap.accountId;
+  }
+  if(!Util.empty(headersMap.groupName)){
+      __request.headers.groupName = headersMap.groupName;
+  }
+  __request.query = Util.stringifyMapValue(query);
+} returns {
+  return _handle(__response);
+}runtime {
+  connectTimeout = 15000,
+  readTimeout = 15000,
+  retry = {
+    maxAttempts = 0
+  }
+}
+
+/**
+ * the api use to deal with post request
+ * @param pathname pathname of the post api
+ * @param query the model of body params 
+ * @param body the model of body body 
+ * @return result result of the server
+ */
+api _post(pathname: string, headers: $Model, query: $Model, body: $Model): object {
+  __request.method = 'POST';
+  __request.protocol = @protocol;
+  __request.pathname = pathname;
+  __request.headers = {
+    host = @server_host,
+    content-type = 'application/json; charset=utf-8',
+  };
+
+  var headersMap = Util.stringifyMapValue(headers);
+  if(!Util.empty(headersMap.accountId)){
+      __request.headers.accountId = headersMap.accountId;
+  }
+  if(!Util.empty(headersMap.groupName)){
+      __request.headers.groupName = headersMap.groupName;
+  }
+  __request.body = Util.toJSONString(body);
+  __request.query = Util.stringifyMapValue(query);
+
+} returns {
+  return _handle(__response);
+}runtime {
+  connectTimeout = 15000,
+  readTimeout = 15000,
+  retry = {
+    maxAttempts = 0
+  }
+}
+
+/**
+ * the handler use to deal with the response
+ * @param response from tea repository server
+ * @return result result of the server
+ */
+async function _handle(response: $Response): object {
+  var result = Util.assertAsMap(Util.readAsJSON(response.body));
+
+  if (!Util.equalNumber(response.statusCode, 200)) {
+    throw {
+      message = `code: ${response.statusCode}, ${result.code} reason: ${result.message}`,
+      code = `${result.code}`
+    };
+  }
+  return result;
+}
+

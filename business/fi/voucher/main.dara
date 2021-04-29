@@ -1,0 +1,48 @@
+import SdkKenerl;
+
+type @kernel = SdkKenerl
+
+init(kernel: SdkKenerl) {
+  @kernel = kernel;
+}
+
+
+ async function saveVoucher(request: VoucherSaveRequest): ApiResponse {
+  return @kernel.post(`/jdy/gl/voucher_save`,request.headers, request.query, request.body);
+}
+model VoucherEntry{
+  id:number,
+  dc:string,
+  explanation:string,
+  debitamount:string,
+  creditamount:string,
+  accountId:string(name='account_id'),
+  accountNumber?:string(name='account_number'),
+}
+model VoucherHead{
+  id:number,
+  date:string,
+  groupId:string(name='group_id'),
+  groupNumber:string(name='groupid_number'),
+  remark:string,
+  entries:[VoucherEntry],
+}
+model VoucherSaveRequest{
+  query:{
+    accessToken: string(name='access_token'),
+  },
+  body:{
+    items:[VoucherHead],
+  },
+  headers:{
+    groupName:string,
+    accountId:string,
+  }
+}
+
+model ApiResponse {
+  errorCode: string,
+  message: string,
+  success: boolean,
+  data: any,
+}

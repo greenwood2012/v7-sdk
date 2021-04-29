@@ -1,0 +1,5 @@
+{
+
+  "v7sdk:kenerl:*": "..\\..\\..\\kenerl",
+  "darabonba:Util:*": "..\\..\\..\\libraries\\darabonba_Util_0.1.15"
+}

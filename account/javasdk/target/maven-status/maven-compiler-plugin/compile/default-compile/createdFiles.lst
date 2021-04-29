@@ -1,0 +1,8 @@
+com\jdy\v7sdk\account\models\AccountGroupRequest.class
+com\jdy\v7sdk\account\models\AccountGroupResponse$AccountGroupResponseDataAccountGroups.class
+com\jdy\v7sdk\account\models\AccountGroupRequest$AccountGroupRequestBody.class
+com\jdy\v7sdk\account\Client.class
+com\jdy\v7sdk\account\models\AccountGroupResponse$AccountGroupResponseData.class
+com\jdy\v7sdk\account\models\AccountGroupRequest$AccountGroupRequestHeaders.class
+com\jdy\v7sdk\account\models\AccountGroupRequest$AccountGroupRequestQuery.class
+com\jdy\v7sdk\account\models\AccountGroupResponse.class

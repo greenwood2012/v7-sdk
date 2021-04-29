@@ -1,0 +1,49 @@
+{
+  "scope": "com.jdy.v7sdk",
+  "name": "sdkkenerl",
+  "version": "0.0.1",
+  "main": "./main.dara",
+  "libraries": {
+    "Util": "darabonba:Util:*"
+  },
+  "releases": {
+    "java": "com.jdy.v7sdk:sdkkenerl:0.0.1",
+    "csharp": "com.jdy.v7sdk.sdkkenerl:0.0.1",
+    "ts": "@kingdeejdy/sdkkenerl:^0.0.1",
+    "php": "kingdeejdy/sdkkenerl:^0.0.1",
+    "python": "kingdeejdy_sdkkenerl:0.0.1"
+  },
+  "java": {
+    "package": "com.jdy.v7sdk.sdkkenerl",
+    "packageInfo": {
+      "description": "Kingdee JDY v7 (20210416) SDK for Java",
+      "url": "",
+      "licenseName": "The Apache License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "developerId": "jdyv7products",
+      "developerName": "Kingdee JDY  SDK",
+      "developerEmail": "huafeng_zhang@kingdee.com"
+    }
+  },
+  "python": {
+    "package": "kingdeejdy_v7sdksdkkenerl",
+    "clientName": "client",
+    "packageInfo": {
+      "name": "kingdeejdy_v7sdksdkkenerl",
+      "desc": "Kingdee JDY v7 (20210416) SDK for Python",
+      "github": "",
+      "author": "Kingdee JDY SDK",
+      "email": "huafeng_zhang@kingdee.com"
+    }
+  },
+  "csharp": {
+    "className": "Client",
+    "namespace": "com.jdy.v7sdk.sdkkenerl",
+    "packageInfo": {
+      "name": "v7sdk",
+      "title": "kingdee-jdy-v7",
+      "description": "Kingdee JDY V7 (20210416) SDK Library for .NET",
+      "company": "Kingdee, Inc"
+    }
+  }
+}

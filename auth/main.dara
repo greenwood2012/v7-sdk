@@ -1,0 +1,118 @@
+import SdkKenerl;
+
+type @kernel = SdkKenerl
+
+init(kernel: SdkKenerl) {
+  @kernel = kernel;
+}
+
+
+model ApiRequest {
+  query: {
+
+  },
+  body:{
+     
+  },
+  headers:{
+      
+  }
+}
+/**
+* common api response，used to get data
+*/
+model ApiResponse {
+  errorCode: string,
+  message: string,
+  success: boolean,
+  data: any,
+}
+
+model TokenRequest {
+  query:{
+    clientId: string(name='client_id'),
+    clientSecret: string(name='client_secret'),
+    username: string,
+    password: string,
+  },
+  body:{
+    
+  },
+  headers:{
+      
+  }
+}
+model AuthCodeRequest {
+  query:{
+    accessToken: string(name='access_token'),
+    clientId: string(name='target_id'),
+  },
+  body:{
+    
+  },
+  headers:{
+      
+  }
+}
+
+model AuthCodeResponse {
+  errcode: number,
+  description: string,
+  data: {
+    authCode: string(name='auth_code'),
+  },
+}
+
+model Auth2Request {
+  query:{
+    clientId: string(name='client_id'),
+    clientSecret: string(name='client_secret'),
+    code: string,
+    granttype: string(name='grant_type'),
+    redirecturi: string(name='redirect_uri'),
+  },
+  body:{
+    
+  },
+  headers:{
+      
+  }
+}
+/**
+* auth api response，used to get accesstoken
+*/
+model TokenResponse {
+  errcode: number,
+  description: string,
+  data: {
+    accessToken: string(name='access_token'),
+    avatar: string,
+    expires: number,
+    expiresIn: number(name='expires_in'),
+    gender: number,
+    nickname: string,
+    uid: number,
+  },
+}
+
+
+/**
+ * get token function
+ * @param request TokenRequest for get TokenResponse 
+ * @return result result of the server
+ */
+ async function getToken(request: TokenRequest): TokenResponse {
+   var headers = new TokenRequest.headers;
+    return @kernel.get(`/auth/user/access_token`,headers,request.query);
+}
+
+ async function getAuthCode(request: AuthCodeRequest): AuthCodeResponse {
+    var headers = new AuthCodeRequest.headers;
+    return @kernel.get(`/auth/user/auth_code`,headers,request.query);
+}
+
+
+ async function getAccessToken(request: Auth2Request): TokenResponse {
+    var headers = new Auth2Request.headers;
+    return @kernel.get(`/auth/oauth2/access_token`,headers,request.query);
+}

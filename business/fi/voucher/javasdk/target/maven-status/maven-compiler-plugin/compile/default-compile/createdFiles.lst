@@ -1,0 +1,8 @@
+com\jdy\v7sdk\business\fi\voucher\models\VoucherSaveRequest$VoucherSaveRequestQuery.class
+com\jdy\v7sdk\business\fi\voucher\models\ApiResponse.class
+com\jdy\v7sdk\business\fi\voucher\models\VoucherSaveRequest.class
+com\jdy\v7sdk\business\fi\voucher\Client.class
+com\jdy\v7sdk\business\fi\voucher\models\VoucherSaveRequest$VoucherSaveRequestBody.class
+com\jdy\v7sdk\business\fi\voucher\models\VoucherHead.class
+com\jdy\v7sdk\business\fi\voucher\models\VoucherEntry.class
+com\jdy\v7sdk\business\fi\voucher\models\VoucherSaveRequest$VoucherSaveRequestHeaders.class

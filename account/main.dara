@@ -1,0 +1,51 @@
+import SdkKenerl;
+
+type @kernel = SdkKenerl
+
+init(kernel: SdkKenerl) {
+  @kernel = kernel;
+}
+
+
+/**
+ * get accountGroup function
+ * @param request AccountGroupRequest for get AccountGroupResponse 
+ * @return result result of the server
+ */
+ async function getAccountGroup(request: AccountGroupRequest): AccountGroupResponse {
+    var headers = new AccountGroupRequest.headers;
+    var body = new AccountGroupRequest.body;
+    return @kernel.post(`/jdy/sys/accountGroup`,headers, request.query, body);
+}
+
+model AccountGroupRequest {
+  query:{
+    accessToken: string(name='access_token'),
+  },
+  body:{
+    
+  },
+  headers:{
+      
+  }
+}
+
+model AccountGroupResponse {
+  data: [
+    {
+      serviceId: string,
+      accountGroups: [
+        {
+          accountName: string,
+          accountId: string,
+          enable: string,
+          groupId: string,
+          groupName: string,
+        }
+      ],
+    }
+  ],
+  success: boolean,
+  errorCode: string,
+  message: string,
+}
