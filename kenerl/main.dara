@@ -8,6 +8,8 @@ model Config {
   protocol: string
 }
 
+
+
 /**
  * init the client
  * @param config Config of the config

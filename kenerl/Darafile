@@ -12,6 +12,7 @@
     "ts": "@kingdeejdy/sdkkenerl:^0.0.1",
     "php": "kingdeejdy/sdkkenerl:^0.0.1",
     "python": "kingdeejdy_sdkkenerl:0.0.1"
+    
   },
   "java": {
     "package": "com.jdy.v7sdk.sdkkenerl",
