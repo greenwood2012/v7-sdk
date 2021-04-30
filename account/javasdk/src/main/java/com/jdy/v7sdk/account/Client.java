@@ -3,12 +3,12 @@ package com.jdy.v7sdk.account;
 
 import com.aliyun.tea.*;
 import com.jdy.v7sdk.account.models.*;
-import com.jdy.v7sdk.sdkkenerl.*;
+import com.jdy.v7sdk.*;
 
 public class Client {
 
-    public com.jdy.v7sdk.sdkkenerl.Client _kernel;
-    public Client(com.jdy.v7sdk.sdkkenerl.Client kernel) throws Exception {
+    public com.jdy.v7sdk.sdkkenerl _kernel;
+    public Client(com.jdy.v7sdk.sdkkenerl kernel) throws Exception {
         this._kernel = kernel;
     }
 

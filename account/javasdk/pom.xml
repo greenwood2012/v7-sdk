@@ -5,10 +5,10 @@
   <artifactId>sdk-account</artifactId>
   <version>0.0.1</version>
   <packaging>jar</packaging>
-  <name></name>
+  <name/>
   <description>Kingdee JDY v7 (20210416) SDK for Java
     </description>
-  <url></url>
+  <url/>
   <licenses>
     <license>
       <name>The Apache License, Version 2.0</name>
@@ -33,9 +33,9 @@
     </repository>
   </distributionManagement>
   <scm>
-    <connection></connection>
-    <developerConnection></developerConnection>
-    <url></url>
+    <connection/>
+    <developerConnection/>
+    <url/>
   </scm>
   <dependencies>
     <dependency>

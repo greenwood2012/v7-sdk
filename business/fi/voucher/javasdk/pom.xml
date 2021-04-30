@@ -40,10 +40,10 @@
   <dependencies>
     <dependency>
       <groupId>com.jdy.v7sdk</groupId>
-      <artifactId>sdkkenerl</artifactId>
+      <artifactId>sdk-kenerl</artifactId>
       <version>0.0.1</version>
-      <scope>system</scope>
-      <systemPath>F:/WorkSpace/jdy/V7Code/v7-sdk/libs/sdk-kenerl-0.0.1.jar</systemPath>
+<!--      <scope>system</scope>-->
+<!--      <systemPath>F:/WorkSpace/jdy/V7Code/v7-sdk/libs/sdk-kenerl-0.0.1.jar</systemPath>-->
     </dependency>
     <dependency>
       <groupId>com.aliyun</groupId>
