@@ -1,1 +1,1 @@
-dara codegen java ./javasdk
+dara codegen java ../sdk/java/business/fi/voucher

@@ -23,7 +23,10 @@
       "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
       "developerId": "jdyv7products",
       "developerName": "Kingdee JDY  SDK",
-      "developerEmail": "huafeng_zhang@kingdee.com"
+      "developerEmail": "huafeng_zhang@kingdee.com",
+      "groupId": "com.jdy.v7sdk.business.fi",
+      "artifactId": "sdk-business-fi-voucher",
+      "version": "0.0.1"
     }
   },
   "python": {

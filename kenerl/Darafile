@@ -15,15 +15,19 @@
     
   },
   "java": {
-    "package": "com.jdy.v7sdk.sdkkenerl",
-    "packageInfo": {
+    "package": "com.jdy.v7sdk",
+    "className":"sdkkenerl",
+     "packageInfo": {
       "description": "Kingdee JDY v7 (20210416) SDK for Java",
       "url": "",
       "licenseName": "The Apache License, Version 2.0",
       "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
       "developerId": "jdyv7products",
       "developerName": "Kingdee JDY  SDK",
-      "developerEmail": "huafeng_zhang@kingdee.com"
+      "developerEmail": "huafeng_zhang@kingdee.com",
+      "groupId": "com.jdy.v7sdk",
+      "artifactId": "sdk-kenerl",
+      "version": "0.0.1"
     }
   },
   "python": {
