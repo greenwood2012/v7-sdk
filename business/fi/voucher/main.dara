@@ -10,6 +10,9 @@ init(kernel: SdkKenerl) {
  async function saveVoucher(request: VoucherSaveRequest): ApiResponse {
   return @kernel.post(`/jdy/gl/voucher_save`,request.headers, request.query, request.body);
 }
+
+
+
 model VoucherEntry{
   id:number,
   dc:string,
