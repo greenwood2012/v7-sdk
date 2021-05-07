@@ -1,20 +1,21 @@
 {
   "scope": "com.jdy.v7sdk",
-  "name": "account",
+  "name": "sdkaccount",
   "version": "0.0.1",
   "main": "./main.dara",
   "libraries": {
     "SdkKenerl": "v7sdk:kenerl:*"
   },
   "releases": {
-    "java": "com.jdy.v7sdk:account:0.0.1",
-    "csharp": "com.jdy.v7sdk.account:0.0.1",
-    "ts": "@kingdeejdy/account:^0.0.1",
-    "php": "kingdeejdy/account:^0.0.1",
-    "python": "kingdeejdy_account:0.0.1"
+    "java": "com.jdy.v7sdk:sdkaccount:0.0.1",
+    "csharp": "com.jdy.v7sdk.sdkaccount:0.0.1",
+    "ts": "@kingdeejdy/sdkaccount:^0.0.1",
+    "php": "kingdeejdy/sdkaccount:^0.0.1",
+    "python": "kingdeejdy_sdkaccount:0.0.1"
   },
   "java": {
-    "package": "com.jdy.v7sdk.account",
+    "package": "com.jdy.v7sdk",
+    "className":"account",
     "packageInfo": {
       "description": "Kingdee JDY v7 (20210416) SDK for Java",
       "url": "",
@@ -24,7 +25,7 @@
       "developerName": "Kingdee JDY  SDK",
       "developerEmail": "huafeng_zhang@kingdee.com",
       "groupId": "com.jdy.v7sdk",
-      "artifactId": "sdk-account",
+      "artifactId": "sdkaccount",
       "version": "0.0.1"
     }
   },

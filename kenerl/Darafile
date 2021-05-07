@@ -16,7 +16,7 @@
   },
   "java": {
     "package": "com.jdy.v7sdk",
-    "className":"sdkkenerl",
+    "className":"kenerl",
      "packageInfo": {
       "description": "Kingdee JDY v7 (20210416) SDK for Java",
       "url": "",
@@ -26,7 +26,7 @@
       "developerName": "Kingdee JDY  SDK",
       "developerEmail": "huafeng_zhang@kingdee.com",
       "groupId": "com.jdy.v7sdk",
-      "artifactId": "sdk-kenerl",
+      "artifactId": "sdkkenerl",
       "version": "0.0.1"
     }
   },

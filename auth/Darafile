@@ -1,20 +1,21 @@
 {
   "scope": "com.jdy.v7sdk",
-  "name": "auth",
+  "name": "sdkauth",
   "version": "0.0.1",
   "main": "./main.dara",
   "libraries": {
     "SdkKenerl": "v7sdk:kenerl:*"
   },
   "releases": {
-    "java": "com.jdy.v7sdk:auth:0.0.1",
-    "csharp": "com.jdy.v7sdk.auth:0.0.1",
-    "ts": "@kingdeejdy/auth:^0.0.1",
-    "php": "kingdeejdy/auth:^0.0.1",
-    "python": "kingdeejdy_auth:0.0.1"
+    "java": "com.jdy.v7sdk:sdkauth:0.0.1",
+    "csharp": "com.jdy.v7sdk.sdkauth:0.0.1",
+    "ts": "@kingdeejdy/sdkauth:^0.0.1",
+    "php": "kingdeejdy/sdkauth:^0.0.1",
+    "python": "kingdeejdy_sdkauth:0.0.1"
   },
   "java": {
-    "package": "com.jdy.v7sdk.auth",
+    "package": "com.jdy.v7sdk",
+    "className":"auth",
     "packageInfo": {
       "description": "Kingdee JDY v7 (20210416) SDK for Java",
       "url": "",
@@ -24,7 +25,7 @@
       "developerName": "Kingdee JDY  SDK",
       "developerEmail": "huafeng_zhang@kingdee.com",
       "groupId": "com.jdy.v7sdk",
-      "artifactId": "sdk-auth",
+      "artifactId": "sdkauth",
       "version": "0.0.1"
     }
   },

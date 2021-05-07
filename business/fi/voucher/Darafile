@@ -15,7 +15,8 @@
     
   },
   "java": {
-    "package": "com.jdy.v7sdk.business.fi.voucher",
+    "package": "com.jdy.v7sdk.business.fi",
+    "className":"voucher",
     "packageInfo": {
       "description": "Kingdee JDY v7 (20210416) SDK for Java",
       "url": "",
@@ -25,7 +26,7 @@
       "developerName": "Kingdee JDY  SDK",
       "developerEmail": "huafeng_zhang@kingdee.com",
       "groupId": "com.jdy.v7sdk.business.fi",
-      "artifactId": "sdk-business-fi-voucher",
+      "artifactId": "voucher",
       "version": "0.0.1"
     }
   },

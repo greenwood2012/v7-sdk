@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7718b820-767c-44b2-9f22-9bd00e2ec18e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../account/Darafile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../account/Darafile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../account/javasdk/src/main/java/com/jdy/v7sdk/account/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../account/javasdk/src/main/java/com/jdy/v7sdk/account/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../account/v7sdk-account/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../account/v7sdk-account/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/Darafile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../auth/Darafile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/src/main/java/com/jdy/v7sdk/auth/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/src/main/java/com/jdy/v7sdk/auth/models/ApiRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/src/main/java/com/jdy/v7sdk/auth/models/ApiResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/src/main/java/com/jdy/v7sdk/auth/models/Auth2Request.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/src/main/java/com/jdy/v7sdk/auth/models/AuthCodeRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/src/main/java/com/jdy/v7sdk/auth/models/AuthCodeResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/src/main/java/com/jdy/v7sdk/auth/models/TokenRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/src/main/java/com/jdy/v7sdk/auth/models/TokenResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/classes/com/jdy/v7sdk/auth/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/classes/com/jdy/v7sdk/auth/models/ApiRequest$ApiRequestBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/classes/com/jdy/v7sdk/auth/models/ApiRequest$ApiRequestHeaders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/classes/com/jdy/v7sdk/auth/models/ApiRequest$ApiRequestQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/classes/com/jdy/v7sdk/auth/models/ApiRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/classes/com/jdy/v7sdk/auth/models/ApiResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/classes/com/jdy/v7sdk/auth/models/Auth2Request$Auth2RequestBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/classes/com/jdy/v7sdk/auth/models/Auth2Request$Auth2RequestHeaders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/classes/com/jdy/v7sdk/auth/models/Auth2Request$Auth2RequestQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/classes/com/jdy/v7sdk/auth/models/Auth2Request.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/classes/com/jdy/v7sdk/auth/models/AuthCodeRequest$AuthCodeRequestBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/classes/com/jdy/v7sdk/auth/models/AuthCodeRequest$AuthCodeRequestHeaders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/classes/com/jdy/v7sdk/auth/models/AuthCodeRequest$AuthCodeRequestQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/classes/com/jdy/v7sdk/auth/models/AuthCodeRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/classes/com/jdy/v7sdk/auth/models/AuthCodeResponse$AuthCodeResponseData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/classes/com/jdy/v7sdk/auth/models/AuthCodeResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/classes/com/jdy/v7sdk/auth/models/TokenRequest$TokenRequestBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/classes/com/jdy/v7sdk/auth/models/TokenRequest$TokenRequestHeaders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/classes/com/jdy/v7sdk/auth/models/TokenRequest$TokenRequestQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/classes/com/jdy/v7sdk/auth/models/TokenRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/classes/com/jdy/v7sdk/auth/models/TokenResponse$TokenResponseData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/classes/com/jdy/v7sdk/auth/models/TokenResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/javasdk/target/sdk-auth-0.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/v7sdk-auth/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/v7sdk-auth/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/v7sdk-auth/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../auth/v7sdk-auth/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../business/fi/voucher/Darafile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../business/fi/voucher/Darafile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../business/fi/voucher/javasdk/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../business/fi/voucher/javasdk/src/main/java/com/jdy/v7sdk/business/fi/voucher/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../business/fi/voucher/javasdk/src/main/java/com/jdy/v7sdk/business/fi/voucher/models/ApiResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../business/fi/voucher/javasdk/src/main/java/com/jdy/v7sdk/business/fi/voucher/models/VoucherEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../business/fi/voucher/javasdk/src/main/java/com/jdy/v7sdk/business/fi/voucher/models/VoucherHead.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../business/fi/voucher/javasdk/src/main/java/com/jdy/v7sdk/business/fi/voucher/models/VoucherSaveRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../business/fi/voucher/javasdk/target/classes/com/jdy/v7sdk/business/fi/voucher/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../business/fi/voucher/javasdk/target/classes/com/jdy/v7sdk/business/fi/voucher/models/ApiResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../business/fi/voucher/javasdk/target/classes/com/jdy/v7sdk/business/fi/voucher/models/VoucherEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../business/fi/voucher/javasdk/target/classes/com/jdy/v7sdk/business/fi/voucher/models/VoucherHead.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../business/fi/voucher/javasdk/target/classes/com/jdy/v7sdk/business/fi/voucher/models/VoucherSaveRequest$VoucherSaveRequestBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../business/fi/voucher/javasdk/target/classes/com/jdy/v7sdk/business/fi/voucher/models/VoucherSaveRequest$VoucherSaveRequestHeaders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../business/fi/voucher/javasdk/target/classes/com/jdy/v7sdk/business/fi/voucher/models/VoucherSaveRequest$VoucherSaveRequestQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../business/fi/voucher/javasdk/target/classes/com/jdy/v7sdk/business/fi/voucher/models/VoucherSaveRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../business/fi/voucher/javasdk/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../business/fi/voucher/javasdk/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../business/fi/voucher/javasdk/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../business/fi/voucher/javasdk/target/sdk-business-fi-voucher-0.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../business/fi/voucher/v7sdk-business-fi-voucher/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../business/fi/voucher/v7sdk-business-fi-voucher/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../business/fi/voucher/v7sdk-business-fi-voucher/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../business/fi/voucher/v7sdk-business-fi-voucher/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kenerl/Darafile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kenerl/Darafile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kenerl/csharp/core/Client.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kenerl/csharp/core/Models/Config.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kenerl/csharp/core/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kenerl/csharp/core/v7sdk.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kenerl/javasdk/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kenerl/javasdk/src/main/java/com/jdy/v7sdk/sdkkenerl/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kenerl/javasdk/src/main/java/com/jdy/v7sdk/sdkkenerl/models/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kenerl/v7sdkkenerl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kenerl/v7sdkkenerl/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdy/v7sdk/sdkkenerl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jdy/v7sdk/sdkkenerl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sdk-kenerl-0.0.1.jar" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jdy/v7sdk/kenerl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/jdy/v7sdk/kenerl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="229" />
+    <option name="y" value="96" />
+    <option name="width" value="1280" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sdkkenerl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kenerl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sdkkenerl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kenerl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sdkkenerl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kenerl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sdkkenerl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kenerl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sdkkenerl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kenerl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sdkkenerl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kenerl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jdy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sdkkenerl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kenerl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jdy" type="462c0819:PsiDirectoryNode" />
+              <item name="v7sdk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sdkkenerl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kenerl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jdy" type="462c0819:PsiDirectoryNode" />
+              <item name="v7sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7718b820-767c-44b2-9f22-9bd00e2ec18e" name="Default Changelist" comment="" />
+      <created>1620348437487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620348437487</updated>
+      <workItem from="1620348439891" duration="222000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="222000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdy/v7sdk/kenerl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
